@@ -19,3 +19,6 @@ class TestQuadrado(TestCase):
         self.assertEqual(self.fig.get_perimetro(), 8)
         self.fig.lado = 7.0
         self.assertEqual(self.fig.get_perimetro(), 28.0)
+
+    def test_x(self):
+        self.assertTrue(1==1)
