@@ -15,8 +15,8 @@ class TestFiguraGeometrico(TestCase):
     def test_get_area(self):
         self.assertRaises(NotImplementedError, self.fig.get_area)
 
-    # Retorna uma NotImplementedError
-    # O nome do metodo deve comecar com test
-    # def test_get_perimetro(self):
-    #     self.assertRaises(NotImplementedError, self.fig.get_perimetro)
+    Retorna uma NotImplementedError
+    O nome do metodo deve comecar com test
+    def test_get_perimetro(self):
+        self.assertRaises(NotImplementedError, self.fig.get_perimetro)
         
