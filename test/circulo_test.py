@@ -21,12 +21,12 @@ class TestCirculo(TestCase):
         area = math.pi * self.fig.raio**2
         self.assertEqual(self.fig.get_area(), area)
         
-    def test_get_perimetro(self):
-        self.fig.raio = 2
-        perimetro = 2 * math.pi * self.fig.raio
-        self.assertEqual(self.fig.get_perimetro(), perimetro)
+    # def test_get_perimetro(self):
+    #     self.fig.raio = 2
+    #     perimetro = 2 * math.pi * self.fig.raio
+    #     self.assertEqual(self.fig.get_perimetro(), perimetro)
         
-        self.fig.raio = 7.0
-        perimetro = 2 * math.pi * self.fig.raio
-        self.assertEqual(self.fig.get_perimetro(), perimetro)
+    #     self.fig.raio = 7.0
+    #     perimetro = 2 * math.pi * self.fig.raio
+    #     self.assertEqual(self.fig.get_perimetro(), perimetro)
 
